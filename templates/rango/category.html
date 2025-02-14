@@ -23,7 +23,7 @@
     {% endif %}
         {% if user.is_authenticated %}
             <a href="{% url 'rango:add_page' category.slug %}">Add Page</a><br/>
-        {%end if%}
+        {%endif%}
     {% else %}
     The specified category does not exist.
     {% endif %}
